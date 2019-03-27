@@ -1,0 +1,122 @@
+
+.table-view .column-header{
+    -fx-font-size: 5px;
+}
+
+.table-cell {
+    -fx-font-size: 36px;
+}
+
+.button1:hover {    
+	-fx-background-color: #666699;  	
+}
+
+.button1 {
+	-fx-background-color: #9999FF;
+    -fx-font-size: 2em;
+    -fx-border-radius: 4px;
+    -fx-effect: dropshadow( one-pass-box , black , 0, 0.0 , 0 , -1 );
+}
+
+
+#ticket{
+	-fx-font-family: "Monospaced";
+	-fx-font-size: 2em;
+	-fx-font-weight: bold;
+	-fx-text-alignment: left;
+}
+#displayInput{
+	-fx-font-family: "Monospaced";
+	-fx-font-size: 2em;
+	-fx-text-alignment: left;
+	-fx-background-color: #C9BDF9;
+}
+#displayTotal{
+	-fx-font-family: "Monospaced";
+	-fx-font-size: 2em;
+	-fx-font-weight: bold;
+	-fx-text-alignment: left;
+	-fx-background-color: #C9BDF9;
+}
+#dateHeure {
+	-fx-background-color: #9999FF;
+	-fx-text-fill: #6BD6F0;	
+	-fx-font-size: 2em;
+	-fx-font-weight: bold;
+    -fx-font-family: "Ebrima";
+}  
+#btn_back {  
+	-fx-background-color: #9999FF;     
+    -fx-background-image: url("/images/backspace.png");
+    -fx-background-size: 35 35;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+}
+#btn_back:hover{    
+	-fx-background-color: #666699;  
+}
+#btn_logoff {  
+	-fx-background-color: #9999FF;        
+    -fx-background-image: url("/images/Logout.png");
+    -fx-background-size: 35 35;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+}
+#btn_logoff:hover{    
+	-fx-background-color: #666699;  
+}
+
+#btn_del {    
+	-fx-background-color: #9999FF;      
+    -fx-background-image: url("/images/garbage.png");
+    -fx-background-size: 35 35;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+}
+#btn_del:hover{    
+	-fx-background-color: #666699;  
+}
+
+#btn_enter {     
+	-fx-background-color: #9999FF;     
+    -fx-background-image: url("/images/enter.png");
+    -fx-background-size: 35 35;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+}
+#btn_enter:hover{    
+	-fx-background-color: #666699;  
+}
+
+#btn_fruits {  
+	-fx-background-color: #9999FF;        
+    -fx-background-image: url("/images/fruits.png");
+    -fx-background-size: 90 70;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+}
+#btn_fruits:hover {    
+	-fx-background-color: #666699;  
+}
+
+#btn_cam { 
+	-fx-background-color: #9999FF;         
+    -fx-background-image: url("/images/camera.png");
+    -fx-background-size: 60 60;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+}
+#btn_cam:hover {    
+	-fx-background-color: #666699;  
+}
+
+#btn_search {
+	-fx-background-color: #9999FF;          
+    -fx-background-image: url("/images/search.png");
+    -fx-background-size: 60 60;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;   
+}
+#btn_search:hover {    
+	-fx-background-color: #666699;  
+}
